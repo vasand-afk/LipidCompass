@@ -1,0 +1,22 @@
+{
+  "cli": {
+    "version": ">= 20.0.0"
+  },
+  "build": {
+    "preview": {
+      "node": "20.18.0",
+      "ios": {
+        "simulator": true
+      }
+    },
+    "preview-device": {
+      "distribution": "internal",
+      "ios": {
+        "resourceClass": "m-medium"
+      }
+    },
+    "production": {
+      "autoIncrement": true
+    }
+  }
+}
