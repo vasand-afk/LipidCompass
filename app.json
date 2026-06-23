@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "LipidIQ",
+    "name": "LipidCompass",
     "slug": "lipidiq",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -9,7 +9,7 @@
     "scheme": "lipidiq",
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.lipidiq.app",
+      "bundleIdentifier": "com.VasanHealth.LipidCompass",
       "infoPlist": {
         "ITSAppUsesNonExemptEncryption": false
       }
@@ -19,7 +19,7 @@
         "backgroundColor": "#0F4C75",
         "foregroundImage": "./assets/adaptive-icon.png"
       },
-      "package": "com.lipidiq.app",
+      "package": "com.vasanhealth.lipidcompass",
       "predictiveBackGestureEnabled": false
     },
     "web": {

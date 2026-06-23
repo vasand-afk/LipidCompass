@@ -73,7 +73,7 @@ export default function Onboarding() {
     // Screen 0: Splash
     <View key="splash" style={styles.screen}>
       <Text style={styles.heroEmoji}>🫀</Text>
-      <Text style={[TYPOGRAPHY.heading1, styles.center]}>LipidIQ</Text>
+      <Text style={[TYPOGRAPHY.heading1, styles.center]}>LipidCompass</Text>
       <Text style={[TYPOGRAPHY.body, styles.center, styles.subtext]}>
         Both sides of the cholesterol debate, personalized to you.
       </Text>
@@ -207,7 +207,7 @@ export default function Onboarding() {
         ))}
       </View>
       <TouchableOpacity style={styles.btn} onPress={handleFinish}>
-        <Text style={styles.btnText}>Enter LipidIQ</Text>
+        <Text style={styles.btnText}>Enter LipidCompass</Text>
       </TouchableOpacity>
     </View>,
   ];
@@ -254,14 +254,14 @@ const styles = StyleSheet.create({
   },
   heroEmoji: { fontSize: 64, textAlign: 'center', marginBottom: SPACING.md },
   center: { textAlign: 'center' },
-  subtext: { color: COLORS.gray600, marginTop: SPACING.sm, marginBottom: SPACING.xl },
-  disclaimer: { color: COLORS.gray400, marginBottom: SPACING.xl, fontSize: 11 },
+  subtext: { color: COLORS.gray600, marginTop: SPACING.sm, marginBottom: SPACING.xl, fontSize: 19 },
+  disclaimer: { color: COLORS.gray400, marginBottom: SPACING.xl, fontSize: 16 },
   btn: {
     backgroundColor: COLORS.primary,
     borderRadius: 14,
     paddingVertical: SPACING.md,
     alignItems: 'center',
-    marginTop: SPACING.lg,
+    marginTop: 144,
   },
   btnDisabled: { backgroundColor: COLORS.gray400 },
   btnText: { color: COLORS.white, fontSize: 16, fontWeight: '700' },
